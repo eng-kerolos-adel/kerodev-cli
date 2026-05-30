@@ -10,7 +10,6 @@ import { brand, log } from '../utils/ui.js';
 import chalk from 'chalk';
 
 export async function runWizard(): Promise<ProjectConfig> {
-  brand.header();
   log.info(chalk.bold('Interactive Setup Wizard'));
   log.dim('Answer a few questions to scaffold your project.\n');
 
