@@ -7,6 +7,12 @@
     "kerodev": "./dist/index.js",
     "kd": "./dist/index.js"
   },
+  "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eng-kerolos-adel/kerodev-cli"
+  },
+  "homepage": "https://github.com/eng-kerolos-adel/kerodev-cli",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
