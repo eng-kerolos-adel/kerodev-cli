@@ -21,6 +21,15 @@ kerodev --help
 kd --help   # short alias
 ```
 
+or
+
+```bash
+npm install -g kerodev-cli
+
+kerodev --help
+kd --help   # short alias
+```
+
 ---
 
 ## Usage

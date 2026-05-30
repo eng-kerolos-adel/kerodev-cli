@@ -4,13 +4,16 @@
   "description": "Enterprise-grade universal project scaffolding CLI by KeroDev",
   "type": "module",
   "bin": {
-    "kerodev": "./dist/index.js",
-    "kd": "./dist/index.js"
+    "kerodev": "dist/index.js",
+    "kd": "dist/index.js"
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eng-kerolos-adel/kerodev-cli"
+    "url": "git+https://github.com/eng-kerolos-adel/kerodev-cli.git"
   },
   "homepage": "https://github.com/eng-kerolos-adel/kerodev-cli",
   "scripts": {
@@ -44,6 +47,16 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["cli", "scaffolding", "generator", "next", "react", "flutter", "kerodev", "nextjs", "tailwind"],
+  "keywords": [
+    "cli",
+    "scaffolding",
+    "generator",
+    "next",
+    "react",
+    "flutter",
+    "kerodev",
+    "nextjs",
+    "tailwind"
+  ],
   "license": "MIT"
 }
