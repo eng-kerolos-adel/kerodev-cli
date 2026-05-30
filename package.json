@@ -1,6 +1,6 @@
 {
   "name": "kerodev-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enterprise-grade universal project scaffolding CLI by KeroDev",
   "type": "module",
   "bin": {
